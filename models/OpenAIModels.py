@@ -4,7 +4,7 @@ class OpenAIModels:
     # Modelo de lenguaje base de OpenAI (GPT-3.5)
     DAVINCI = "text-davinci-002"
     # Modelo de lenguaje Turbo de OpenAI (GPT-3.5 Turbo)
-    TURBO = "text-turbo-002"
+    TURBO = "gpt-3.5-turbo-16k"
     # Modelo de lenguaje basado en GPT-4:
     GPT4 = "text-gpt4.0"
     # Modelo de lenguaje multilingüe
