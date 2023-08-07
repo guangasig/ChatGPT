@@ -5,7 +5,7 @@ from data.dialogues.admisiones import informacion
 from data.validate import question
 from models.OpenAIModels import OpenAIModels
 
-openai.api_key = config('DISCORD_TOKEN', default='DEFAULT')
+openai.api_key = config('OPENAI_TOKEN', default='DEFAULT')
 
 
 def obtener_respuesta(input_text, contexto):
