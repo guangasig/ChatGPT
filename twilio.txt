@@ -1,0 +1,40 @@
+Phone Numbers
+   Manage
+      Active numbers
+      Released numbers
+      Buy a number
+      Verified Caller IDs
+      TwiML apps
+   Port & Host
+      Port in requests
+      Port a number
+      Port away requests
+      Host numbers
+      Authorization documents
+   Regulatory Compliance
+      Bundles
+      Addresses
+      Compliance report
+Messaging
+   Overview
+   Try it out
+      Send an SMS
+      Send a WhatsApp message
+      Services
+Senders
+   Alphanumeric Sender ID
+   Short codes
+   WhatsApp senders
+   WhatsApp templates
+   Content Editor
+Beta
+Settings
+   General
+   Log archives
+   Geo permissions
+   Add-ons Beta
+Regulatory Compliance
+   A2P 10DLC Overview
+   Brands
+   Campaigns
+   Onboarding
