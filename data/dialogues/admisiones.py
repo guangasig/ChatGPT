@@ -1,11 +1,10 @@
-import PyPDF2
+from PyPDF2 import PdfReader
 
 
 def informacion(archivo):
     texto = ""
     with open(archivo, "rb") as pdf_file:
-        pdf_reader = PyPDF2.PdfFileReader(pdf_file)
-        for page_num in range(pdf_reader.numPages):
-            page = pdf_reader.getPage(page_num)
-            texto += page.extractText()
+        pdf_reader = PdfReader(pdf_file)
+        for page in pdf_reader.pages:
+            texto += page.extract_text()
     return texto
