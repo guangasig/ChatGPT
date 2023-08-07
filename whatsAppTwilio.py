@@ -10,7 +10,7 @@ auth_token = config('TWILIO_AUTH_TOKEN', default='TOKEN')
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-    body='¡Hola! Soy ISTE, Tu acesora diguital. ¿Cómo puedo ayudarte?',
+    body='¡Hola! Soy s-manuel, Tu acesor diguital. ¿Cómo puedo ayudarte?',
     from_=config('WHATSAPP_FROM', default='FROM'),
     to=config('WHATSAPP_TO', default='TO')
 )

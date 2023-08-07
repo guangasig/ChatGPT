@@ -30,7 +30,7 @@ def obtener_respuesta(input_text, contexto):
 if __name__ == "__main__":
 
     context = informacion('./data/dialogues/Brochure.pdf')
-    print("¡Hola! Soy ISTE, Tu acesora diguital. ¿Cómo puedo ayudarte?")
+    print("¡Hola! Soy s-manuel, Tu acesor diguital. ¿Cómo puedo ayudarte?")
 
     while True:
         user_input = input("Tú: ")
