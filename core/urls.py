@@ -17,9 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from orderbot.views import recibir_mensaje
+from orderbot.views import whatsapp
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('sms/', recibir_mensaje, name='recibir_mensaje'),
+    path('sms/', whatsapp, name='whatsapp'),
 ]

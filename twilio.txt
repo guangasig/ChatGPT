@@ -1,3 +1,5 @@
+Webhook por defecto https://demo.twilio.com/welcome/sms/reply/
+
 Phone Numbers
    Manage
       Active numbers
@@ -20,6 +22,8 @@ Messaging
    Try it out
       Send an SMS
       Send a WhatsApp message
+        => Sandbox Configuration
+            => https://timberwolf-mastiff-9776.twil.io/demo-reply
       Services
 Senders
    Alphanumeric Sender ID
