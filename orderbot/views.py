@@ -20,6 +20,6 @@ def whatsapp(request):
 
         except Exception as e:
             print(f"Error: {e}")
-            return HttpResponse('Error interno', status=500)
+            return HttpResponse('Error interno OpenIA', status=500)
     else:
         return HttpResponse('Método no permitido', status=405)
