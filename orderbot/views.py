@@ -17,6 +17,7 @@ def whatsapp(request):
             respuesta_generada = Openia(input_text=mensaje_recibido).response()
             response = MessagingResponse()
             response.message(respuesta_generada)
+            return HttpResponse(str(response))
 
         except Exception as e:
             print(f"Error: {e}")
