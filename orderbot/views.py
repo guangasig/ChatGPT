@@ -14,7 +14,7 @@ def whatsapp(request):
 
         try:
 
-            respuesta_generada = Openia.response(mensaje_recibido)
+            respuesta_generada = Openia().response(mensaje_recibido)
             response = MessagingResponse()
             response.message(respuesta_generada)
 
