@@ -24,5 +24,5 @@ class Openia:
             )
             return response['choices'][0]['message']['content']
         except OpenAIError as e:
-            print(f"Error from OpenAI: {e}")
+            print(f"Error de  OpenAI: {e}")
             return "Lo siento, no puedo proporcionar una respuesta en este momento."
