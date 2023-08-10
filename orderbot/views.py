@@ -9,7 +9,8 @@ from core.openia.response import Openia
 @csrf_exempt
 def whatsapp(request):
     if request.method == 'POST':
-        numero_de_telefono = request.POST.get('From')
+
+        numero_telefono = request.POST.get('From')
         mensaje_recibido = request.POST.get('Body')
 
         try:
