@@ -11,7 +11,7 @@ class Openia:
     def __init__(self, input_text=None):
         self.input_text = input_text
         self.api_key = config('OPENAI_TOKEN', default='DEFAULT')
-        self.context = informacion('./data/dialogues/Brochure.pdf')
+        self.context = informacion('./data/dialogues/Brouchure.pdf')
 
     def response(self):
         print('input_text=', self.input_text)
