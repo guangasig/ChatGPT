@@ -14,8 +14,7 @@ class Openia:
         self.context = informacion('./data/dialogues/Brouchure.pdf')
 
     def response(self):
-        print('input_text=', self.input_text)
-        print('self.input_text=', self.input_text)
+        print('sms=', self.input_text)
         try:
             if question(self.input_text, self.context):
                 openai.api_key = self.api_key
