@@ -1,4 +1,4 @@
-# Bot Whatsapp ISTE
+# Bot Whatsapp
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
 ### Módulos y versiones
@@ -18,6 +18,10 @@
     * `.\venv\Scripts\activate`
     * Por último, ejecutar la instrucción para instalar los paques necesarios
     * `pip install -r requirements.txt`
+3. Configurar el contexto de respuesta del bot
+    * Prepara un archivo .pdf con la iformacion que deseamos que responda el bot.
+    * Guardar el archivo .pdf con el nombre Brouchure.pdf
+    * Copiar el archivo Brouchure.pdf en `data/dialogues/` (buscar este path en el proyecto)
 3. Levantar proyecto en el host
     * Para iniciar el proyecto, ejecutar `python manage.py runserver 127.0.0.1:83`
     * Recordar que se trabajará con las versiones indicadas, por recomendación del framework hasta junio 2023
