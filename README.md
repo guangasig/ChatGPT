@@ -1,5 +1,5 @@
-# [DJANGO](https://www.djangoproject.com)  
-## Bot Whatsapp ISTE
+# Bot Whatsapp ISTE
+![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
 ### Módulos y versiones
 | Módulo | Código | Descripción | 
@@ -16,14 +16,14 @@
     * `python -m venv venv`
     * Segundo activar el entonro virtual
     * `.\venv\Scripts\activate`
-    * Para finalizar ejecutar la instrucción para instalar los paques necesarios
+    * Por último, ejecutar la instrucción para instalar los paques necesarios
     * `pip install -r requirements.txt`
 3. Levantar proyecto en el host
-    * Para iniciar un proyecto ejecutar `python manage.py runserver 127.0.0.1:83`
+    * Para iniciar el proyecto, ejecutar `python manage.py runserver 127.0.0.1:83`
     * Recordar que se trabajará con las versiones indicadas, por recomendación del framework hasta junio 2023
 4. Configurar Twilio webhook WhatsApp
     * Primero crear una cuenta Twilio
     * Luego, conectar WhatsApp Personal o Empresarial a la zona de pruebas de Twilio [Ver configuración Sanbox](https://www.twilio.com/es-mx/docs/whatsapp/sandbox)
-    * Por último, configurar una URL pública para envió de sms de salida [Ver configuración Sanbox Settings](https://www.twilio.com/es-mx/docs/whatsapp/sandbox)
+    * Por último, configurar la URL pública para envió de sms de salida [Ver configuración Sanbox Settings](https://www.twilio.com/es-mx/docs/whatsapp/sandbox)
 5. Probar el bot
     * Abrir la aplicación de WhatsApp y enviar un mensaje al número de pruebas de Twilio configurada
