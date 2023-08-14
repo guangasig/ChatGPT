@@ -1,7 +1,7 @@
 import openai
 from decouple import config
 
-from data.dialogues.admisiones import informacion
+from data.dialogues.dialog_uno import informacion
 from data.validate import question
 from models.OpenAIModels import OpenAIModels
 
@@ -29,8 +29,8 @@ def obtener_respuesta(input_text, contexto):
 
 if __name__ == "__main__":
 
-    context = informacion('./data/dialogues/Brochure.pdf')
-    print("¡Hola! Soy s-manuel, Tu acesor diguital. ¿Cómo puedo ayudarte?")
+    context = informacion('./data/dialogues/Brochure_uno.pdf')
+    print("¡Hola! Soy s-manuel. ¿Cómo puedo ayudarte?")
 
     while True:
         user_input = input("Tú: ")

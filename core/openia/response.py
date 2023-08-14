@@ -2,7 +2,7 @@ import openai
 from decouple import config
 from openai.error import OpenAIError
 
-from data.dialogues.admisiones import informacion
+from data.dialogues.dialog_uno import informacion
 from data.validate import question
 from models.OpenAIModels import OpenAIModels
 
@@ -11,7 +11,7 @@ class Openia:
     def __init__(self, input_text=None):
         self.input_text = input_text
         self.api_key = config('OPENAI_TOKEN', default='DEFAULT')
-        self.context = informacion('./data/dialogues/Brouchure.pdf')
+        self.context = informacion('./data/dialogues/Brochure_uno.pdf')
 
     def response(self):
         print('sms=', self.input_text)
