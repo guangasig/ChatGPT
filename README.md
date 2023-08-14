@@ -5,7 +5,7 @@
 | Módulo | Código | Descripción | 
 | --- | --- | --- |
 | python 3.10 | descargar | ['Documentación'](https://www.python.org/downloads) |
-| django 4.2 | pip install django | ['Documentación'] (https://www.djangoproject.com/) |
+| django 4.2 | pip install django | ['Documentación'](https://www.djangoproject.com/) |
 | Openai 0.27 | pip install openai | ['Documentación'](https://pypi.org/project/openai/) |
 | twilio 8.5.0 | pip install twilio | ['Documentación'](https://pypi.org/project/twilio/) |
 
